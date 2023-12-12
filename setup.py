@@ -1,10 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="NetwrokScanning",  # Replace with your package's name
+    name="NetwrokScanning",  
     version="0.1",
-    author="Abdirisaq",  # Replace with your name
-    author_email="abdirisaqmoa@outlook.com",  # Replace with your email
+    author="Abdirisaq",  
+    author_email="abdirisaqmoa@outlook.com",
+    license='MIT',  
     description="A Python package for network scanning and analysis working in the backend ",  
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
