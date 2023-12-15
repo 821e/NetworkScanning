@@ -25,3 +25,5 @@ wheels/
 .cache
 *.log
 *.sqlite
+*.build
+
