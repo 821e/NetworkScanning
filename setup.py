@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="NetwrokScanning",  
-    version="0.1",
+    version="0.2",
     author="Abdirisaq",  
     author_email="abdirisaqmoa@outlook.com",
     license='MIT',  
@@ -28,5 +28,5 @@ setup(
         'Programming Language :: Python :: 3.12',
         'Operating System :: OS Independent',
     ],
-    python_requires='>=3.12',  # Specify compatible Python versions
+    python_requires='>=3.7',  # Specify compatible Python versions
 )
