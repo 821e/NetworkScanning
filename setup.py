@@ -1,20 +1,20 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="NetwrokScanning",  
+    name="NetworkScanning",  
     version="0.2",
     author="Abdirisaq",  
     author_email="abdirisaqmoa@outlook.com",
     license='MIT',  
-    description="A Python package for network scanning and analysis working in the backend ",  
-    long_description=open('README.md').read(),
+    description="A Python package for network scanning and analysis working in the backend",  
+    # long_description can be a detailed description of your package
+    long_description="This package provides tools for network scanning and analysis.", 
     long_description_content_type="text/markdown",
     url="https://github.com/ZeusDevEng/NetworkScanning", 
     packages=find_packages(),
     install_requires=[
         "scapy>=2.5.0",
-
-   ],
+    ],
     classifiers=[
         'Development Status :: 3 - Alpha',  # Change as appropriate
         'Intended Audience :: Developers',
