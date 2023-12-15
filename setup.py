@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="NetworkScanning",  
-    version="0.2",
+    version="0.1.0",
     author="Abdirisaq",  
     author_email="abdirisaqmoa@outlook.com",
     license='MIT',  
