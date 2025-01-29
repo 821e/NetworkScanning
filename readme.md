@@ -1,3 +1,4 @@
+```markdown
 # Network Scanning Tool
 
 This Network Scanning Tool is a Python-based utility for network analysis and port scanning. It leverages the Scapy library and standard socket programming to provide various network scanning features.
@@ -26,6 +27,9 @@ The tool provides the following functions:
 
 To install Scapy, run:
 
+```bash
+pip install scapy
+```
 
 ## Example
 
@@ -44,9 +48,9 @@ print("UDP Port 53:", udp_result)
 # Grab a banner from port 22 (SSH) of example.com
 banner = grab_banner("example.com", 22)
 print("Banner from Port 22:", banner)
+```
 
-
-
-Disclaimer
+## Disclaimer
 
 This tool is for educational and ethical testing purposes only. Unauthorized scanning and banner grabbing on networks or servers without explicit permission is illegal and unethical.
+```
